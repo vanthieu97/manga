@@ -6,9 +6,9 @@ import Page from './components/Page'
 import './App.css'
 
 const App = () => {
-  const [scale, setScale] = useState(0 || 614 / 1600)
+  const [scale, setScale] = useState(614 / 1600)
   const [data, setData] = useState(initialValues)
-  const [selected, setSelected] = useState('ls-cFile-448310.text-tOYaiWL1l5jggPIJCQa6w')
+  const [selected, setSelected] = useState<string>('')
   const [editText, setEditText] = useState<string>('')
 
   useEffect(() => {
