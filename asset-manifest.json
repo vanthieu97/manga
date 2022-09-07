@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/manga/static/css/main.7a61523c.css",
-    "main.js": "/manga/static/js/main.24cc3ef7.js",
+    "main.js": "/manga/static/js/main.e857ba5f.js",
     "static/media/SFProText-Heavy.svg": "/manga/static/media/SFProText-Heavy.1f2cf8ec81461987d308.svg",
     "static/media/SFProText-Bold.svg": "/manga/static/media/SFProText-Bold.8b251959fb78e7b7a8dd.svg",
     "static/media/SFProText-Semibold.svg": "/manga/static/media/SFProText-Semibold.60f007cba3cfc8deed55.svg",
@@ -54,10 +54,10 @@
     "static/media/AlexMildWorld.woff2": "/manga/static/media/AlexMildWorld.807bb4bb2d6accfc3d2c.woff2",
     "index.html": "/manga/index.html",
     "main.7a61523c.css.map": "/manga/static/css/main.7a61523c.css.map",
-    "main.24cc3ef7.js.map": "/manga/static/js/main.24cc3ef7.js.map"
+    "main.e857ba5f.js.map": "/manga/static/js/main.e857ba5f.js.map"
   },
   "entrypoints": [
     "static/css/main.7a61523c.css",
-    "static/js/main.24cc3ef7.js"
+    "static/js/main.e857ba5f.js"
   ]
 }
