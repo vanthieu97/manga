@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Black.eot');
+  src: url('SFProText-Black.eot?#iefix') format('embedded-opentype'), url('SFProText-Black.woff2') format('woff2'),
+    url('SFProText-Black.woff') format('woff'), url('SFProText-Black.ttf') format('truetype'),
+    url('SFProText-Black.svg#SFProText-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Bold.eot');
+  src: url('SFProText-Bold.eot?#iefix') format('embedded-opentype'), url('SFProText-Bold.woff2') format('woff2'),
+    url('SFProText-Bold.woff') format('woff'), url('SFProText-Bold.ttf') format('truetype'),
+    url('SFProText-Bold.svg#SFProText-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Heavy.eot');
+  src: url('SFProText-Heavy.eot?#iefix') format('embedded-opentype'), url('SFProText-Heavy.woff2') format('woff2'),
+    url('SFProText-Heavy.woff') format('woff'), url('SFProText-Heavy.ttf') format('truetype'),
+    url('SFProText-Heavy.svg#SFProText-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Light.eot');
+  src: url('SFProText-Light.eot?#iefix') format('embedded-opentype'), url('SFProText-Light.woff2') format('woff2'),
+    url('SFProText-Light.woff') format('woff'), url('SFProText-Light.ttf') format('truetype'),
+    url('SFProText-Light.svg#SFProText-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Medium.eot');
+  src: url('SFProText-Medium.eot?#iefix') format('embedded-opentype'), url('SFProText-Medium.woff2') format('woff2'),
+    url('SFProText-Medium.woff') format('woff'), url('SFProText-Medium.ttf') format('truetype'),
+    url('SFProText-Medium.svg#SFProText-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Regular.eot');
+  src: url('SFProText-Regular.eot?#iefix') format('embedded-opentype'), url('SFProText-Regular.woff2') format('woff2'),
+    url('SFProText-Regular.woff') format('woff'), url('SFProText-Regular.ttf') format('truetype'),
+    url('SFProText-Regular.svg#SFProText-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Semibold.eot');
+  src: url('SFProText-Semibold.eot?#iefix') format('embedded-opentype'), url('SFProText-Semibold.woff2') format('woff2'),
+    url('SFProText-Semibold.woff') format('woff'), url('SFProText-Semibold.ttf') format('truetype'),
+    url('SFProText-Semibold.svg#SFProText-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Thin.eot');
+  src: url('SFProText-Thin.eot?#iefix') format('embedded-opentype'), url('SFProText-Thin.woff2') format('woff2'),
+    url('SFProText-Thin.woff') format('woff'), url('SFProText-Thin.ttf') format('truetype'),
+    url('SFProText-Thin.svg#SFProText-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url('SFProText-Ultralight.eot');
+  src: url('SFProText-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('SFProText-Ultralight.woff2') format('woff2'), url('SFProText-Ultralight.woff') format('woff'),
+    url('SFProText-Ultralight.ttf') format('truetype'),
+    url('SFProText-Ultralight.svg#SFProText-Ultralight') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alex Mild World';
+  src: url('AlexMildWorld.eot');
+  src: url('AlexMildWorld.eot?#iefix') format('embedded-opentype'), url('AlexMildWorld.woff2') format('woff2'),
+    url('AlexMildWorld.woff') format('woff'), url('AlexMildWorld.ttf') format('truetype'),
+    url('AlexMildWorld.svg#AlexMildWorld') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

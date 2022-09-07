@@ -1,0 +1,98 @@
+.page-wrap {
+  display: flex;
+  justify-content: center;
+}
+.page {
+  position: relative;
+  user-select: none;
+  overflow: hidden;
+}
+.page-wrap .object-wrap {
+  position: absolute;
+  border: calc(1.3943px / var(--zoom)) solid transparent;
+  transition: border 0.1s;
+}
+.page-wrap .object-wrap:hover {
+  border-color: #1890ff;
+}
+.page-wrap .object-wrap .visual-asset {
+  width: 100%;
+}
+.page-wrap .object-wrap.selected {
+  border-color: transparent;
+}
+.page-wrap .object-wrap.editing {
+  border: calc(1.3943px / var(--zoom)) solid #1890ff;
+}
+.dot-wrap {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: all-scroll;
+}
+.dot-wrap .line {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: 0;
+  height: calc(15.34px / var(--zoom));
+  transform: translateX(-50%);
+  border-left: calc(1.3943px / var(--zoom)) solid #1890ff;
+}
+.dot-wrap .dot {
+  position: absolute;
+}
+.dot-wrap .dot.dot-corner {
+  transform: translate(-50%, -50%);
+  width: calc(6.97px / var(--zoom));
+  height: calc(6.97px / var(--zoom));
+  background-color: #fff;
+  border: calc(1.3943px / var(--zoom)) solid #1890ff;
+}
+.dot-wrap .dot.dot-top-left {
+  cursor: nwse-resize;
+}
+.dot-wrap .dot.dot.dot-top-right {
+  left: 100%;
+  cursor: nesw-resize;
+}
+.dot-wrap .dot.dot-bottom-left {
+  top: 100%;
+  cursor: nesw-resize;
+}
+.dot-wrap .dot.dot-bottom-right {
+  top: 100%;
+  left: 100%;
+  cursor: nwse-resize;
+}
+.dot-wrap .dot.dot-rotate {
+  left: 50%;
+  top: calc(-13.25px / var(--zoom));
+  width: calc(9.76px / var(--zoom));
+  height: calc(9.76px / var(--zoom));
+  border-radius: 50%;
+  cursor: url('../../assets/rotate.png') 11 11, auto;
+}
+.dot-wrap .dot.dot-left,
+.dot-wrap .dot.dot-right {
+  height: 100%;
+  width: 0;
+  cursor: ew-resize;
+  transform: translateX(-50%);
+  border-left: calc(2.79px * var(--zoom)) solid #1890ff;
+}
+.dot-wrap .dot.dot-right {
+  left: 100%;
+}
+.dot-wrap .dot.dot-top,
+.dot-wrap .dot.dot-bottom {
+  width: 100%;
+  height: 0;
+  cursor: ns-resize;
+  transform: translateY(-50%);
+  border-top: calc(2.79px * var(--zoom)) solid #1890ff;
+}
+.dot-wrap .dot.dot-bottom {
+  top: 100%;
+}
